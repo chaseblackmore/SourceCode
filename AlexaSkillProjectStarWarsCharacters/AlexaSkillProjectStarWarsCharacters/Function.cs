@@ -62,7 +62,7 @@ namespace AlexaSkillProjectStarWarsCharacters
                     {
                         return BodyResponse("You have now exited the Star Wars app", false);
                     }
-
+                     
 
 
                     var characterInfo = await GetCharInfo(characterRequest, context);
